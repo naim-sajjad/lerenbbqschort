@@ -1,0 +1,42 @@
+html{
+	font-size: 18px;
+}
+#canvas-wrapper{
+	width: 400px;
+}
+.canvas-main-container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+}
+.canvas-editor-wrapper{
+	background-color: #282828;
+	width: 70%;
+
+	margin: auto;
+	margin-top:50px;
+	position: relative;
+	display: flex;
+}
+.canvas-tools{
+
+	background-color: #151515;
+
+	height: 100%;
+	display: table;
+	bottom: 0;
+	z-index: 2;
+}
+.canvas-tools ul{
+	list-style-type: none;
+	color:#fff;
+	margin: 0;
+	padding: 12px;
+}
+.canvas-tools li svg{
+	width: 24px;
+	height: 24px;
+}
